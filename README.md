@@ -1,4 +1,4 @@
-This project is for me to play around with react and get a personal website and blog out of the process.
+This project is for me to work with react and get a personal website and blog out of the process.
 I'm going the easy route of hosting the site on github.io for now. My aim is to get the most out of this
 with the least amount of effort required to keep it going.
 
