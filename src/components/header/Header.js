@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
-import { Nav, NavItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class Header extends Component {
   render() {
     return (
-      <Nav bsStyle="tabs">
-        <NavItem href="/">Home</NavItem>
-        <NavItem href="/blog">Blog</NavItem>
-        <NavItem href="/about">About Me</NavItem>
-      </Nav>
+      <Navbar fluid>
+        <Navbar.Header>
+          <Navbar.Brand>
+            Website
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav pullRight >
+            <NavItem><Link to='/'>Home</Link></NavItem>
+            <NavItem><Link to="/blog">Blog</Link></NavItem>
+            <NavItem><Link to="/about">About Me</Link></NavItem>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
