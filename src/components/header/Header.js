@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
 class Header extends Component {
   render() {
@@ -14,9 +14,9 @@ class Header extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight >
-            <NavItem><Link to='/website/'>Home</Link></NavItem>
-            <NavItem><Link to="/website/blog">Blog</Link></NavItem>
-            <NavItem><Link to="/website/about">About Me</Link></NavItem>
+            <IndexLinkContainer to="/website"><NavItem>Home</NavItem></IndexLinkContainer>
+            <LinkContainer to="/website/blog"><NavItem>Blog</NavItem></LinkContainer>
+            <LinkContainer to="/website/about"><NavItem>About Me</NavItem></LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
