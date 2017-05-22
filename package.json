@@ -2,7 +2,7 @@
   "name": "tmp-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://smbell.github.io/website",
+  "homepage": "https://smbell.github.io/website/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.5.4",

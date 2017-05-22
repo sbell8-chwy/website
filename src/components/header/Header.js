@@ -14,9 +14,9 @@ class Header extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight >
-            <NavItem><Link to='/'>Home</Link></NavItem>
-            <NavItem><Link to="/blog">Blog</Link></NavItem>
-            <NavItem><Link to="/about">About Me</Link></NavItem>
+            <NavItem><Link to='/website/'>Home</Link></NavItem>
+            <NavItem><Link to="/website/blog">Blog</Link></NavItem>
+            <NavItem><Link to="/website/about">About Me</Link></NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

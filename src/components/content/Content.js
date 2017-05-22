@@ -12,9 +12,9 @@ class Content extends Component {
     return (
       <div className="content">
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/blog' component={Blog}/>
-          <Route path='/about' component={About}/>
+          <Route exact path='/website' component={Home}/>
+          <Route path='/website/blog' component={Blog}/>
+          <Route path='/website/about' component={About}/>
           <Route component={NotFound}/>
         </Switch>
       </div>
