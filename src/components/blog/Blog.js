@@ -4,7 +4,7 @@ class Blog extends Component {
   render() {
     return (
       <div>
-        Blog
+        Wait... You mean I need to write something?!? hmmmm. I'll get right on that.
       </div>
     )
   }

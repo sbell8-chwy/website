@@ -8,7 +8,7 @@ class Header extends Component {
       <Navbar fluid>
         <Navbar.Header>
           <Navbar.Brand>
-            Website
+            Bell's Blog
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

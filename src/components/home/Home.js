@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import ReactMarkdown from 'react-markdown';
+import homeMarkdown from './Home.md.js';
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        Home
-      </div>
+      <ReactMarkdown source={homeMarkdown} />
     )
   }
 }
