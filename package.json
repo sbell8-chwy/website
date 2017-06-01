@@ -5,6 +5,8 @@
   "homepage": "https://smbell.github.io/website/",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "dateformat": "^2.0.0",
+    "lodash": "^4.17.4",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",

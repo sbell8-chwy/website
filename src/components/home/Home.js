@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 import homeMarkdown from './Home.md.js';
 
+import './Home.css';
+
 class Home extends Component {
   render() {
     return (
-      <ReactMarkdown source={homeMarkdown} />
+      <ReactMarkdown className='home_content' source={homeMarkdown} />
     )
   }
 }
