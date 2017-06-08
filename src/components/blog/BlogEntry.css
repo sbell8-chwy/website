@@ -1,0 +1,6 @@
+.blog_entry {
+  border: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 45px;
+}

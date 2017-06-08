@@ -1,5 +1,12 @@
 export default [
 {
+  id: 2,
+  title: '',
+  publishTimestamp: 1498892400000,
+  path: '2017/07/01',
+  shortDescription: ''
+},
+{
   id: 1,
   title: 'Let\'s get it (this blog) started!',
   publishTimestamp: 1496300400000,

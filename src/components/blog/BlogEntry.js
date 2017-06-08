@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React, {Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 
+import './BlogEntry.css';
+
 class BlogEntry extends Component {
   static propTypes = {
     match: PropTypes.object.isRequired,
@@ -33,7 +35,9 @@ class BlogEntry extends Component {
   }
 
   render() {
-    return(<ReactMarkdown source={this.state.blogcontent} />)
+    return(<div className="blog_entry">
+      <ReactMarkdown source={this.state.blogcontent} />
+    </div>)
   }
 }
 
