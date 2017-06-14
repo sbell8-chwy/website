@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import React, {Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 
+import DisqusThread from '../disqus/DisqusThread';
+
 import './BlogEntry.css';
 
 class BlogEntry extends Component {
@@ -35,8 +37,14 @@ class BlogEntry extends Component {
   }
 
   render() {
+    const { location } = this.props;
+
     return(<div className="blog_entry">
-      <ReactMarkdown source={this.state.blogcontent} />
+      <ReactMarkdown source={this.state.blogcontent.post} />
+      <DisqusThread
+          identifier={this.state.blogcontent.id}
+          url={'https://smbell.github.io' + location.pathname}
+          title={this.state.blogcontent.title} />
     </div>)
   }
 }

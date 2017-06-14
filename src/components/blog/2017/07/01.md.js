@@ -1,4 +1,7 @@
-export default `
+export default {
+  id: 2,
+  title: 'Notepad++? Sublime? Atom? Not when I have Vim.',
+  post: `
 ### Notepad++? Sublime? Atom? Not when I have Vim.
 
 According to the [internet](https://insights.stackoverflow.com/survey/2015#tech-editor) vim is still one of the more popular text editing programs around but in my professional life I still get a lot of raised eyebrows and sideways glances when I tell people I do nearly all my development work in vim.
@@ -45,4 +48,4 @@ If you want more information on Amir's vimrc script the readme file on that proj
 I'll be following this post up with deeper dives on specific functionality available with this setup.
 There is a sizable learning curve here, but I don't think that is really any different than the learning curve needed to use any development tool to it's potential.
 Give it a real try and you might just be pleasantly surprised.
-`;
+`};
