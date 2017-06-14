@@ -1,7 +1,7 @@
 export default [
 {
   id: 2,
-  title: 'Sublime? Atom? Not when I have Vim.',
+  title: 'Notepad++? Sublime? Atom? Not when I have Vim.',
   publishTimestamp: 1498892400000,
   path: '2017/07/01',
   shortDescription: 'An introduction into some of the features of vim. Why I use it as my editor of choice when writing code, and how (easy it is) to setup vim. There is a reason this age old editor is still one of the more popular text editors. Oh, and of course, emacs sucks...'
