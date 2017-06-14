@@ -1,2 +1,0 @@
-webpackJsonp([1],{519:function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=[{id:2,title:"",publishTimestamp:14988924e5,path:"2017/07/01",shortDescription:""},{id:1,title:"Let's get it (this blog) started!",publishTimestamp:14963004e5,path:"2017/06/01",shortDescription:"Explore the creation of this site. In this first blog post we'll explore why I created this site and some of the technology I've selected."}]}});
-//# sourceMappingURL=1.7b63b95a.chunk.js.map
