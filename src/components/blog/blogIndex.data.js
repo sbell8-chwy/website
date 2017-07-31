@@ -1,5 +1,12 @@
 export default [
 {
+  id: 3,
+  title: 'Navigation',
+  publishTimestamp: 1501570800000,
+  path: '2017/08/01',
+  shortDescription: 'Navigating in vim. Within a file and across files. Getting to where you want to go and finding what you need to find.'
+},
+{
   id: 2,
   title: 'Notepad++? Sublime? Atom? Not when I have Vim.',
   publishTimestamp: 1498892400000,
