@@ -1,5 +1,12 @@
 export default [
 {
+  id: 4,
+  title: 'Fun with Kittens',
+  publishTimestamp: 1504249200000,
+  path: '2017/09/01',
+  shortDescription: 'Having a bit of fun with Javascript by automating a browser game.'
+},
+{
   id: 3,
   title: 'Navigation',
   publishTimestamp: 1501570800000,
