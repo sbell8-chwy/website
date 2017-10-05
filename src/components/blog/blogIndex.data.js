@@ -1,5 +1,12 @@
 export default [
 {
+  id: 5,
+  title: 'Conditional Vim Settings',
+  publishTimestamp: 1506841200000,
+  path: '2017/10/01',
+  shortDescription: 'Fixing an annoyance with project specific vim settings.'
+},
+{
   id: 4,
   title: 'Fun with Kittens',
   publishTimestamp: 1504249200000,
