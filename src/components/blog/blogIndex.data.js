@@ -1,5 +1,12 @@
 export default [
 {
+  id: 6,
+  title: 'Go Fish',
+  publishTimestamp: 1509519600000,
+  path: '2017/11/01',
+  shortDescription: 'Trying out a new shell'
+},
+{
   id: 5,
   title: 'Conditional Vim Settings',
   publishTimestamp: 1506841200000,
